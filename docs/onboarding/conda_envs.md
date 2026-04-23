@@ -55,4 +55,8 @@ Here, `conda create -n minimap2` creates a new environment called "minimap2", an
 
 In previous versions, `mamba` was a faster way to create packages, as it used a more sophisticated solver. In modern miniforge3, `conda` uses the `libmamba` solver under the hood, so there are very minimal speed differences between the two. Nevertheless, in most instances, `conda` and `mamba` are equivalent and interchangeable. 
 
-LINK TO BEST_PRACTICES FOR CONDA/MAMBA. LIKE CLONING, MAKING YAMLS, ETC.
+# todo
+
+- [ ] Link to other docs files for best practices with conda/mamba including
+  - Cloning envs
+  - Making yamls
