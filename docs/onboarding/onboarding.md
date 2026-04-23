@@ -63,4 +63,8 @@ flowchart LR
   style id4 fill:#ff4444,stroke:#cc0000,color:#fff
 ```
 
+Slurm schedules _interactive sessions_ with `srun`. When you request an _interactive session_, you are telling slurm (the job manager) to give you a terminal shell to a compute node that has whatever resources you want.
+
+It is more efficient to submit your job to the scheduler compared to requesting an interative session with `srun`. This way, you can submit a job script and have it run in the background without any additional interference. `sbatch` is built for this. Unlike interactive jobs, you write a slurm script that contains information about all the resources you need and the code you want to run, and then submit that to the cluster with `sbatch`.
+
 See [slurm_jobs.md](./slurm_jobs.md) for more information about requesting interactive jobs or submitting jobs.
