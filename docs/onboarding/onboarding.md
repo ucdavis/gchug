@@ -4,7 +4,8 @@
 Finish the [command line tutorial](https://labex.io/lesson/the-shell) on linuxjourney
 
 ## 1.2 Setting up a Hive account
-Go to [HiPPO](https://hippo.ucdavis.edu/clusters) and make an account.
+
+Once you finish reading this document in full, complete the pre-approval quiz linked [here](https://docs.google.com/forms/d/e/1FAIpQLSc8vwuJME8Emiji9_oKcTIaByoq0dry3Y55A-nV_kQkZ0WsAQ/viewform). Then go to [HiPPO](https://hippo.ucdavis.edu/clusters) and make an account.
 
 See [ssh_keys.md](./ssh_keys.md) for more information about setting up ssh keys
 
