@@ -37,8 +37,6 @@ username@hive-dc-7-6-38$ exit
 username$login2$ 
 ```
 
-LINK TO OTHER BEST PRACTICES FOR SRUN. LIKE SRUN IN TMUX, SCREEN
-
 ## 1.2 sbatch
 
 It is more efficient to submit your job to the scheduler compared to requesting an interative session with `srun`. This way, you can submit a job script and have it run in the background without any additional interference. 
@@ -76,8 +74,6 @@ sbatch hello_world.slurm
 
 To _submit_ this job to the scheduler and it will be added to the queue.
 
-LINK TO BEST_PRACTICES FOR SBATCH LIKE ARRAYS
-
 ## 1.3 A note on resources
 
 > [!CAUTION]
@@ -95,9 +91,14 @@ You can check on a job's status by typing in `sacct --allocations`
 squeue --me
 ```
 
-
 Jobs can be cancelled using `scancel JOBID`. from  `squeue --me`, you'll be able to see the ID associated with all your recent and actively running jobs.
 
 ```sh
 scancel 3434685
 ```
+
+# todo
+- [ ] Add links to docs for best practices with slurm scheduling including
+  - using screens/tmux
+  - more advanced sbatch (arrays)
+  - monitoring resources
